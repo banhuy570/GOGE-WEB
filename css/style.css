@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&family=Otomanopee+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,900&display=swap');
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/font/Proxima-Nova-1.ttf') format("truetype");
+}
+
+:root {
+    --main-text-font: 'Proxima Nova';
+    --logo-text-font: 'Roboto', sans-serif;
+    --main-color: #FF8A00;
+    ;
+}
+
+html {
+    font-family: var(--logo-text-font);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+header {
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+}
+
+.top {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    min-height: 114px;
+    background-color: #FFFFFF;
+}
+
+.header-top ul {
+    width: 50%;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top ul li {
+    margin: 28px
+}
+
+.header-top ul li a {
+    font-size: 15px;
+    color: coral;
+    text-decoration-line: none;
+    cursor: pointer;
+    /* margin-bottom: 150px; */
+}
+
+.header-top ul li a {
+    font-size: 15px;
+    color: coral;
+    text-decoration-line: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.header-top ul li:first-child a {
+    font-weight: bold;
+}
+
+.header-top ul li:nth-child(4) a {
+    box-shadow:     0 3px coral;
+}
+
+.button-group {
+    width: 25%;
+}
+
+.button-header {
+    margin-right: 10px;
+    height: 56px;
+    line-height: 18px;
+    border-radius: 16px;
+    color: cornsilk;
+    padding: 8px 16px;
+    border: none;
+    min-width: 160px;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    /* 3 */
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.logo-header {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 20%;
+}
+
+
+/* Main */
+
+.intro-cta {
+    text-align: left;
+    height: 583px;
+    width: 100%;
+    display: flex;
+}
+
+.intro-cta h1 {
+    width: 534px;
+    font-weight: 800;
+    height: 198px;
+    font-size: 44px;
+    line-height: 158.34%;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-cta p {
+    width: 444px;
+    height: 69px;
+    left: 216px;
+    top: 468px;
+    font-size: 18px;
+    line-height: 33px;
+    color: #5C5C5C;
+}
+
+
+/* main text 1*/
+
+.sologan {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    height: 800px;
+}
+
+.sologan-text h1 {
+    width: 534px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 158.34%;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: normal;
+}
+
+.sologan-text h1 span {
+    font-weight: bold;
+}
+
+.sologan-text p {
+    width: 387px;
+    height: 198px;
+    font-size: 14px;
+    line-height: 175.78%;
+    color: #5C5C5C;
+}
+
+.mask-5 {
+    padding-left: 0;
+    overflow: hidden;
+    margin-right: 60px;
+}
+
+.button-sologan {
+    margin-right: 10px;
+    height: 56px;
+    line-height: 18px;
+    border-radius: 16px;
+    color: cornsilk;
+    padding: 8px 16px;
+    border: none;
+    min-width: 160px;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/*main 2 */
+
+.support {
+    text-align: left;
+    display: flex;
+    width: 100%;
+    height: 690px;
+}
+
+.support h1 {
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* position: absolute; */
+    width: 534px;
+    height: 119px;
+    /* left: 236px;
+    top: 1565px; */
+    font-size: 40px;
+    line-height: 158.34%;
+    font-weight: normal;
+}
+
+.support h1 span {
+    font-weight: bold;
+}
+
+.support p {
+    /* position: absolute; */
+    width: 387px;
+    height: 198px;
+    /* left: 236px;
+    top: 1722px; */
+    font-size: 14px;
+    line-height: 175.78%;
+    /* or 25px */
+    color: #5C5C5C;
+}
+
+.support .logo11 {
+    /* position: absolute; */
+    width: 523px;
+    height: 575.04px;
+    /* left: 741px;
+    top: 1508px; */
+}
+
+.support .icon {
+    /* position: absolute; */
+    height: 29.77px;
+    /* left: 236px; */
+    width: 387px;
+    /* top: 1909.65px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.support .icon img {
+    width: 25px;
+    height: 29.77px;
+}
+
+
+/*  Award  */
+
+.award {
+    display: flex;
+    height: 298px;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+}
+
+.award-items {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.award-item {}
+
+.award-item h1 {
+    font-size: 40px;
+    line-height: 182.7%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.award-items .award-item p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* creative team */
+
+.creative-team {
+    width: 100%;
+    height: 760px;
+    display: flex;
+    background: #FFF7DF;
+}
+
+.creative-left {}
+
+.creative-team h1 {
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    width: 534px;
+    height: 119px;
+    margin-bottom: 38px;
+    font-size: 40px;
+    line-height: 158.34%;
+}
+
+.creative-team p {
+    width: 387px;
+    height: 198px;
+    font-size: 14px;
+    line-height: 175.78%;
+    color: #5C5C5C;
+}
+
+
+/* contact */
+
+.contact {
+    display: flex;
+    /* position: absolute; */
+    width: 100%;
+    height: 480px;
+    /* top: 3247px; */
+    background-image: url(/image/Group2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-left {
+    /* position: absolute; */
+    /* left: 238px;
+    top: 102px; */
+}
+
+.contact-left h1 {
+    color: white;
+    font-weight: 800;
+    width: 435px;
+    height: 104px;
+    font-size: 40px;
+    line-height: 158.34%;
+}
+
+.contact-left p {
+    width: 475px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 175.78%;
+    color: rgba(255, 255, 255, 1);
+    margin: 33px 0;
+}
+
+.contact-btn {
+    width: 160px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 35px rgba(194, 158, 30, 0.34);
+    border-radius: 100px;
+    border: none;
+}
+
+.contact-btn-text {
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--logo-text-font);
+    font-weight: bold;
+}
+
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    background: #212121;
+    color: white;
+}
+
+.footer-1 ul li {
+    color: white;
+    font-size: 15px;
+    line-height: 175.78%;
+}
+
+.footer-1 ul li a {
+    color: white;
+}
+
+
+/* Copy right */
+
+.copy-right {
+    height: 39px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.copy-right a {
+    color: white;
+}
+
+.copy-right-1 a {
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.copy-right a span {
+    color: white;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* media 575px */
+
+@media (max-width: 575px) {
+    .header-top {
+        width: 100vw;
+    }
+    .header-top ul,
+    .button-group {
+        display: none;
+    }
+}
